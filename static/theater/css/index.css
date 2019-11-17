@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar{
+    background-color: #141414
+}
+
+.movie-category{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.movie-category:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.nav-flex{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.card{
+    border-width: 0px;
+    box-shadow: 0 6px 6px black;
+    border: solid white;
+    border-width: 1px;
+    margin: 0 0 8px 0;
+}
+
+.card:active{
+    border: solid red;
+    border-width: 1px;
+}
+
+.card-img{
+    width: 100%;
+    height: auto;
+}
+
+.imdb-logo{
+    font-size: 2.6rem;
+    color: #E8B708;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.card-img-overlay:hover{
+    opacity: 1;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.movie-container{
+    background: url("https://i.redd.it/q0f5yvhoh0oy.jpg");
+}
+
+.page-overlay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+ 
+.carousel-container{
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+/*Page Overlay*/
+.movie-title{
+    color: white;
+    font-size: 2.4em;
+    font-weight: lighter;
+}
+
+.play-button{
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.movie-small-text{
+    color: white;
+    font-size: 0.9em;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.movie-plot{
+    color: white;
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.movie-trailer{
+    margin-top: 3%;
+}
